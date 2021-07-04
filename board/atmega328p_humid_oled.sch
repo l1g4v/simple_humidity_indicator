@@ -1,0 +1,209 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 60D7B0C0
+P 7400 3150
+F 0 "J2" H 7428 3126 50  0000 L CNN
+F 1 "VCC" H 7428 3035 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7400 3150 50  0001 C CNN
+F 3 "~" H 7400 3150 50  0001 C CNN
+	1    7400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J3
+U 1 1 60D7C474
+P 7100 4850
+F 0 "J3" H 7128 4876 50  0000 L CNN
+F 1 "DHT" H 7128 4785 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7100 4850 50  0001 C CNN
+F 3 "~" H 7100 4850 50  0001 C CNN
+	1    7100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 60D7D065
+P 7100 3900
+F 0 "J4" H 7128 3876 50  0000 L CNN
+F 1 "OLED" H 7128 3785 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7100 3900 50  0001 C CNN
+F 3 "~" H 7100 3900 50  0001 C CNN
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab:Power_GND #PWR0102
+U 1 1 60D7EC56
+P 5550 5600
+F 0 "#PWR0102" H 5550 5350 50  0001 C CNN
+F 1 "Power_GND" H 5555 5427 50  0000 C CNN
+F 2 "" H 5550 5600 50  0001 C CNN
+F 3 "" H 5550 5600 50  0001 C CNN
+	1    5550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab:Power_GND #PWR0103
+U 1 1 60D7F9E7
+P 6900 4100
+F 0 "#PWR0103" H 6900 3850 50  0001 C CNN
+F 1 "Power_GND" V 6900 3750 50  0000 C CNN
+F 2 "" H 6900 4100 50  0001 C CNN
+F 3 "" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:Power_GND #PWR0104
+U 1 1 60D7FFA3
+P 6900 4750
+F 0 "#PWR0104" H 6900 4500 50  0001 C CNN
+F 1 "Power_GND" V 6900 4350 50  0000 C CNN
+F 2 "" H 6900 4750 50  0001 C CNN
+F 3 "" H 6900 4750 50  0001 C CNN
+	1    6900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:Power_GND #PWR0105
+U 1 1 60D801DB
+P 7200 3150
+F 0 "#PWR0105" H 7200 2900 50  0001 C CNN
+F 1 "Power_GND" V 7200 2800 50  0000 C CNN
+F 2 "" H 7200 3150 50  0001 C CNN
+F 3 "" H 7200 3150 50  0001 C CNN
+	1    7200 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:Power_+5V #PWR0107
+U 1 1 60D83AC5
+P 7200 3250
+F 0 "#PWR0107" H 7200 3100 50  0001 C CNN
+F 1 "Power_+5V" V 7200 3600 50  0000 C CNN
+F 2 "" H 7200 3250 50  0001 C CNN
+F 3 "" H 7200 3250 50  0001 C CNN
+	1    7200 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fab:Power_+5V #PWR0108
+U 1 1 60D83FDE
+P 6900 4850
+F 0 "#PWR0108" H 6900 4700 50  0001 C CNN
+F 1 "Power_+5V" V 6900 5250 50  0000 C CNN
+F 2 "" H 6900 4850 50  0001 C CNN
+F 3 "" H 6900 4850 50  0001 C CNN
+	1    6900 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fab:Power_+5V #PWR0109
+U 1 1 60D84368
+P 6900 4000
+F 0 "#PWR0109" H 6900 3850 50  0001 C CNN
+F 1 "Power_+5V" V 6900 4350 50  0000 C CNN
+F 2 "" H 6900 4000 50  0001 C CNN
+F 3 "" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fab:Power_+5V #PWR0110
+U 1 1 60D85377
+P 5550 2600
+F 0 "#PWR0110" H 5550 2450 50  0001 C CNN
+F 1 "Power_+5V" H 5565 2773 50  0000 C CNN
+F 2 "" H 5550 2600 50  0001 C CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 3200 2    50   Input ~ 0
+PB3
+Text GLabel 6150 3300 2    50   Input ~ 0
+PB4
+Text GLabel 6150 3400 2    50   Input ~ 0
+PB5
+$Comp
+L fab:R R1
+U 1 1 60D875D3
+P 6550 4400
+F 0 "R1" H 6620 4446 50  0000 L CNN
+F 1 "10K" H 6620 4355 50  0000 L CNN
+F 2 "fab:R_1206" V 6480 4400 50  0001 C CNN
+F 3 "~" H 6550 4400 50  0001 C CNN
+	1    6550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fab:Power_+5V #PWR0111
+U 1 1 60D895AF
+P 7200 4400
+F 0 "#PWR0111" H 7200 4250 50  0001 C CNN
+F 1 "Power_+5V" H 7215 4573 50  0000 C CNN
+F 2 "" H 7200 4400 50  0001 C CNN
+F 3 "" H 7200 4400 50  0001 C CNN
+	1    7200 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4400 6800 4400
+Wire Wire Line
+	6150 4300 6300 4300
+Wire Wire Line
+	6300 4300 6300 3900
+Wire Wire Line
+	6300 3900 6900 3900
+Wire Wire Line
+	6150 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 3800
+Wire Wire Line
+	6250 3800 6900 3800
+Wire Wire Line
+	6150 4800 6250 4800
+Wire Wire Line
+	6250 4800 6250 4950
+Wire Wire Line
+	6250 4950 6900 4950
+$Comp
+L MCU_Microchip_ATmega:ATmega328-PU U1
+U 1 1 60D8E430
+P 5550 4100
+F 0 "U1" H 4906 4146 50  0000 R CNN
+F 1 "ATmega328-PU" H 4906 4055 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5550 4100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5550 4100 50  0001 C CNN
+	1    5550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab:BUTTON_B3SN SW1
+U 1 1 60E0F3DF
+P 7000 4400
+F 0 "SW1" H 7000 4215 50  0000 C CNN
+F 1 "RESET" H 7000 4306 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 7000 4600 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3sn.pdf" H 7000 4600 50  0001 C CNN
+	1    7000 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 4400 6400 4400
+$EndSCHEMATC
